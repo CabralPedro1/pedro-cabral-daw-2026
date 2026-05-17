@@ -1,2 +1,10 @@
-# pedro-cabral-daw-2026
-Repositorio de la materia Desarrollo y Arquitecturas Web con sus respectivas actividades.
+# Desarrollo y Arquitecturas Web
+
+## Alumno
+Pedro Cabral
+
+## Comisión
+4AN
+
+## Objetivo
+Repositorio utilizado para las actividades prácticas de la materia.
