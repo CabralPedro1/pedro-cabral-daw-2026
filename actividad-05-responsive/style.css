@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/* DESKTOP */
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f4f4f4;
+color: #222;
+}
+
+nav {
+background-color: #003366;
+padding: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+header {
+width: 900px;
+margin: 30px auto;
+background-color: white;
+padding: 25px;
+}
+
+h1 {
+font-size: 42px;
+margin-bottom: 20px;
+}
+
+.bajada {
+font-size: 22px;
+color: #555;
+}
+
+main {
+width: 900px;
+margin: auto;
+}
+
+article {
+background-color: white;
+padding: 20px;
+border-radius: 5px;
+}
+
+article img {
+width: 100%;
+height: auto;
+margin: 20px 0;
+}
+
+h2 {
+margin: 20px 0;
+color: #003366;
+}
+
+p {
+line-height: 1.8;
+margin-bottom: 15px;
+}
+
+#ciudad {
+color: darkred;
+font-weight: bold;
+}
+
+.suscripcion {
+background-color: white;
+margin-top: 25px;
+padding: 20px;
+border-radius: 5px;
+}
+
+fieldset {
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+input {
+width: 300px;
+padding: 8px;
+}
+
+button {
+background-color: #003366;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+}
+
+/* TABLET */
+
+@media screen and (max-width: 992px) {
+
+
+header,
+main {
+    width: 90%;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.bajada {
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+
+
+nav {
+    text-align: center;
+}
+
+header,
+main {
+    width: 95%;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.bajada {
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+}
+
+}
