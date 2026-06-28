@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción - Rosario Deportivo</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="subscription.js" defer></script>
+
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <a class="volver" href="index.html">
+            ← Volver al diario
+        </a>
+
+        <div class="titulo-diario">
+            <h1>ROSARIO DEPORTIVO</h1>
+            <p>Formulario de Suscripción</p>
+        </div>
+
+        <div class="hamburguesa">
+            ☰
+        </div>
+
+        <nav class="menu">
+
+            <a href="index.html">Diario</a>
+            <a href="#">Newell's</a>
+            <a href="#">Central</a>
+            <a href="#">Fútbol Argentino</a>
+            <a href="#">Opinión</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="formulario">
+
+            <h2 id="tituloFormulario">
+                HOLA
+            </h2>
+
+            <form id="subscriptionForm">
+
+                <div class="campo">
+
+                    <label for="nombre">
+                        Nombre completo
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre">
+
+                    <small class="error" id="errorNombre"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email">
+
+                    <small class="error" id="errorEmail"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="password">
+                        Contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password">
+
+                    <small class="error" id="errorPassword"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="repetirPassword">
+                        Repetir contraseña
+                    </label>
+
+                    <input
+                        type="password"
+                        id="repetirPassword">
+
+                    <small class="error" id="errorRepetirPassword"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="edad">
+                        Edad
+                    </label>
+
+                    <input
+                        type="number"
+                        id="edad">
+
+                    <small class="error" id="errorEdad"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="telefono">
+                        Teléfono
+                    </label>
+
+                    <input
+                        type="text"
+                        id="telefono">
+
+                    <small class="error" id="errorTelefono"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="direccion">
+                        Dirección
+                    </label>
+
+                    <input
+                        type="text"
+                        id="direccion">
+
+                    <small class="error" id="errorDireccion"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="ciudad">
+                        Ciudad
+                    </label>
+
+                    <input
+                        type="text"
+                        id="ciudad">
+
+                    <small class="error" id="errorCiudad"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="codigoPostal">
+                        Código Postal
+                    </label>
+
+                    <input
+                        type="text"
+                        id="codigoPostal">
+
+                    <small class="error" id="errorCodigoPostal"></small>
+
+                </div>
+
+                <div class="campo">
+
+                    <label for="dni">
+                        DNI
+                    </label>
+
+                    <input
+                        type="text"
+                        id="dni">
+
+                    <small class="error" id="errorDni"></small>
+
+                </div>
+
+                <div class="boton">
+
+                    <button type="submit">
+                        Enviar
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Rosario Deportivo - Actividad 09 DOM
+        </p>
+
+        <p>
+            Desarrollo y Arquitecturas Web - Pedro Cabral
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+```
