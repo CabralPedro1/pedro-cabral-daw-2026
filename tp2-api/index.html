@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TP2 - Rick & Morty API</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <a class="volver" href="../index.html">
+        ← Volver al inicio
+    </a>
+
+    <h1>Rick & Morty API</h1>
+
+</header>
+
+<main>
+
+    <section class="contenedor">
+
+        <div class="imagen">
+
+            <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick">
+
+        </div>
+
+        <section class="panel">
+
+            <button id="btnTodos">
+                Obtener personajes
+            </button>
+
+            <div class="filtros">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Nombre">
+
+                <input
+                    type="text"
+                    id="status"
+                    placeholder="Estado (alive, dead...)">
+
+                <input
+                    type="text"
+                    id="species"
+                    placeholder="Especie">
+
+                <input
+                    type="text"
+                    id="type"
+                    placeholder="Tipo">
+
+                <input
+                    type="text"
+                    id="gender"
+                    placeholder="Género">
+
+            </div>
+
+            <button id="btnBuscar">
+                Buscar
+            </button>
+
+            <p id="mensajeError"></p>
+
+        </section>
+
+        <div class="imagen">
+
+            <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="Morty">
+
+        </div>
+
+    </section>
+
+    <section class="tabla">
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Estado</th>
+                    <th>Especie</th>
+                    <th>Tipo</th>
+                    <th>Género</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="resultado">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>
+
+        Trabajo Práctico API REST - Rick & Morty
+
+    </p>
+
+    <p>
+
+        Desarrollo y Arquitecturas Web - Pedro Cabral
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
